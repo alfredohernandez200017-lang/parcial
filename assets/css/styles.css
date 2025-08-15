@@ -1,0 +1,16 @@
+/* Estilos adicionales */
+:root {
+  --hero-bg: linear-gradient(135deg, #0d6efd 0%, #6610f2 100%);
+}
+
+.hero { background: var(--hero-bg); }
+.bookstack { height: 260px; background:
+  radial-gradient(circle at 30% 30%, rgba(255,255,255,.3), rgba(255,255,255,0) 60%),
+  repeating-linear-gradient(90deg, #fff 0 6px, #f1f3f5 6px 12px);
+}
+
+.card .ratio { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+
+/* Pequeñas mejoras de tipografía y espaciado */
+body { line-height: 1.6; }
+h1, h2, h3, h4 { letter-spacing: .2px; }
